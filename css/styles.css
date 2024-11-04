@@ -86,7 +86,7 @@ body{
 
 /* hero section */
 .hero-section {
-  margin-top:50px;
+  padding-top:50px;
   background-color: #f8f9fa;
   display: flex;
   align-items: center;
