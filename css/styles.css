@@ -339,6 +339,9 @@ body{
 
 /* Small Devices (Mobile Phones) */
 @media (max-width: 576px) {
+  body{
+    font-size: 80%;
+  }
   .header{
     position: fixed;
     top: 0;
@@ -362,9 +365,11 @@ body{
 
   .hero-section{
     position: relative;
-    top: 100px;
+    top: 110px;
   }
-
+  .social-media{
+    font-size: 1.5rem;
+  }
   .hero-image{
     max-width: 100%;
   }
@@ -377,7 +382,7 @@ body{
   }
 
   .project-section{
-    padding: 40px;
+    padding: 15px;
     margin-top: -80px;
   }
   .project-section h5 {
@@ -426,7 +431,8 @@ body{
   }
 
   .hero-section{
-    margin-top:30px;
+    position: relative;
+    top: 50px;
   }
 
   .skill-bar h5 {
