@@ -129,9 +129,9 @@ const sr = ScrollReveal({
     duration: 2500,
     delay:400,
 })
-sr.reveal('.hero-left, .footer-add, .footer-links, .footer-social-links, .copyright')
+sr.reveal('.navbar-brand, .nav-item, .hero-left, .footer-add, .footer-links, .footer-social-links, .copyright')
 sr.reveal('.profile-image, .msg-btn',{delay :700, origin: 'bottom'})
-sr.reveal('.navbar-brand, .nav-item, .project-card-container, .testimonial-card-container, .testi-frm-btn, .msg-inp-top',{interval:100})
+sr.reveal('.project-card-container, .testimonial-card-container, .testi-frm-btn, .msg-inp-top',{interval:100})
 sr.reveal('.header, .left-skills, .education-item, .testi-frm-left-inp, .msg-inp-left',{origin:'left'})
 sr.reveal('.right-skills, .testi-frm-right-inp, .msg-inp-right',{origin:'right'})
   
