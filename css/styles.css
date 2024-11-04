@@ -86,7 +86,12 @@ body{
 
 /* hero section */
 .hero-section {
-  padding-top:50px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  min-height: 100vh;
   background-color: #f8f9fa;
   display: flex;
   align-items: center;
@@ -356,7 +361,8 @@ body{
   }
 
   .hero-section{
-    margin-top:30px;
+    position: relative;
+    top: 100px;
   }
 
   .hero-image{
@@ -364,7 +370,7 @@ body{
   }
 
   .skill-section{
-    margin-top: -40px;
+    margin-top: 40px;
   }
   .skill-bar h5 {
       font-size: 0.9rem;
